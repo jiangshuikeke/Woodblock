@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>count</key>
+	<integer>0</integer>
+	<key>styleIndex</key>
+	<integer>0</integer>
+	<key>isShowWord</key>
+	<true/>
+	<key>showWord</key>
+	<string>输入诵经文本 例：功德+1 </string>
+	<key>isAutoKnock</key>
+	<false/>
+	<key>autoKnockIndex</key>
+	<integer>0</integer>
+	<key>autoKnockInterval</key>
+	<integer>1</integer>
+	<key>stopKnockIndex</key>
+	<integer>0</integer>
+	<key>stopKnockDate</key>
+	<date>2022-11-23T14:08:41Z</date>
+	<key>stopKnockTime</key>
+	<integer>0</integer>
+	<key>deviationInterval</key>
+	<integer>0</integer>
+	<key>isRandomVolume</key>
+	<false/>
+	<key>isShowCounter</key>
+	<true/>
+	<key>isScreenOn</key>
+	<false/>
+	<key>vibratorIndex</key>
+	<integer>0</integer>
+	<key>shakeIndex</key>
+	<integer>0</integer>
+</dict>
+</plist>

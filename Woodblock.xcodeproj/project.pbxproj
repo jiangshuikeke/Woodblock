@@ -1,0 +1,1362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A502DF52934A133007C9D26 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502DF42934A133007C9D26 /* SettingView.swift */; };
+		2A502DF72934A13F007C9D26 /* InstrumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502DF62934A13F007C9D26 /* InstrumentView.swift */; };
+		2A502DFA2934A24E007C9D26 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502DF92934A24E007C9D26 /* NavigationBar.swift */; };
+		2A502DFC2934A87C007C9D26 /* WithSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502DFB2934A87C007C9D26 /* WithSwitch.swift */; };
+		2A502DFE2934AA1D007C9D26 /* DeviationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502DFD2934AA1D007C9D26 /* DeviationView.swift */; };
+		2A502E002934ADF9007C9D26 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502DFF2934ADF9007C9D26 /* Global.swift */; };
+		2A502E032934B231007C9D26 /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E022934B231007C9D26 /* BackView.swift */; };
+		2A502E062934B6AC007C9D26 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E052934B6AC007C9D26 /* HomeView.swift */; };
+		2A502E0A2934C4CD007C9D26 /* AShakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E092934C4CD007C9D26 /* AShakeView.swift */; };
+		2A502E452934E761007C9D26 /* InstrumentsEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E442934E761007C9D26 /* InstrumentsEditView.swift */; };
+		2A502E4A2934F080007C9D26 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E492934F080007C9D26 /* Config.swift */; };
+		2A502E4C2934F0FE007C9D26 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E4B2934F0FE007C9D26 /* Style.swift */; };
+		2A502E4E2934F21C007C9D26 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765DB2934935F00CC96DC /* UIColor+Extension.swift */; };
+		2A502E5029358BF1007C9D26 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E4F29358BF1007C9D26 /* EditView.swift */; };
+		2A502E522935FDD5007C9D26 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E512935FDD5007C9D26 /* UserModel.swift */; };
+		2A502E562935FEF3007C9D26 /* isShowStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A502E552935FEF3007C9D26 /* isShowStyle.json */; };
+		2A502E572935FEF9007C9D26 /* Config.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A502E542935FE40007C9D26 /* Config.json */; };
+		2A502E5929362FCE007C9D26 /* StopTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E5829362FCE007C9D26 /* StopTimeView.swift */; };
+		2A502E5B293719BB007C9D26 /* AutoKnockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E5A293719BB007C9D26 /* AutoKnockView.swift */; };
+		2A502E5D29371AB5007C9D26 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E5C29371AB5007C9D26 /* PlaceholderView.swift */; };
+		2A502E6329372014007C9D26 /* ListSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A502E6229372014007C9D26 /* ListSelectedView.swift */; };
+		2A502E6A293DE448007C9D26 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A502E69293DE448007C9D26 /* Poppins-Black.ttf */; };
+		2A502E6B293DE448007C9D26 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A502E69293DE448007C9D26 /* Poppins-Black.ttf */; };
+		2A51548129407ADF008B574D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A51548029407ADF008B574D /* WidgetKit.framework */; };
+		2A51548329407ADF008B574D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A51548229407ADF008B574D /* SwiftUI.framework */; };
+		2A51548629407ADF008B574D /* WoodblockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51548529407ADF008B574D /* WoodblockWidget.swift */; };
+		2A51548929407AE3008B574D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A51548829407AE3008B574D /* Assets.xcassets */; };
+		2A51548B29407AE3008B574D /* WoodblockWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2A51548729407ADF008B574D /* WoodblockWidget.intentdefinition */; };
+		2A51548C29407AE3008B574D /* WoodblockWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2A51548729407ADF008B574D /* WoodblockWidget.intentdefinition */; };
+		2A51548F29407AE3008B574D /* WoodblockWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2A51547F29407ADF008B574D /* WoodblockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2AC765992934932700CC96DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765982934932700CC96DC /* AppDelegate.swift */; };
+		2AC7659B2934932700CC96DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC7659A2934932700CC96DC /* SceneDelegate.swift */; };
+		2AC765A02934932700CC96DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC7659E2934932700CC96DC /* Main.storyboard */; };
+		2AC765A22934932B00CC96DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765A12934932B00CC96DC /* Assets.xcassets */; };
+		2AC765A52934932B00CC96DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765A32934932B00CC96DC /* LaunchScreen.storyboard */; };
+		2AC765DF2934936000CC96DC /* ShakeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765AD2934935D00CC96DC /* ShakeManager.swift */; };
+		2AC765E02934936000CC96DC /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765AE2934935D00CC96DC /* Global.swift */; };
+		2AC765E12934936000CC96DC /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765AF2934935D00CC96DC /* PlistManager.swift */; };
+		2AC765E22934936000CC96DC /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765B12934935E00CC96DC /* SettingViewController.swift */; };
+		2AC765E32934936000CC96DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765B22934935E00CC96DC /* HomeViewController.swift */; };
+		2AC765E42934936000CC96DC /* AdvancedSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765B32934935E00CC96DC /* AdvancedSettingViewController.swift */; };
+		2AC765E52934936000CC96DC /* InstrumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765B42934935E00CC96DC /* InstrumentsViewController.swift */; };
+		2AC765E62934936000CC96DC /* InstrumentsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765B62934935E00CC96DC /* InstrumentsCollectionCell.swift */; };
+		2AC765E72934936000CC96DC /* InstrumentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765B72934935E00CC96DC /* InstrumentsCell.swift */; };
+		2AC765E82934936000CC96DC /* pingpong2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765B92934935E00CC96DC /* pingpong2.mp3 */; };
+		2AC765E92934936000CC96DC /* kiss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765BA2934935E00CC96DC /* kiss.mp3 */; };
+		2AC765EA2934936000CC96DC /* ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765BB2934935E00CC96DC /* ring.mp3 */; };
+		2AC765EB2934936000CC96DC /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765BC2934935E00CC96DC /* cat.mp3 */; };
+		2AC765EC2934936000CC96DC /* allegro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765BD2934935E00CC96DC /* allegro.mp3 */; };
+		2AC765ED2934936000CC96DC /* heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765BE2934935E00CC96DC /* heart.mp3 */; };
+		2AC765F02934936000CC96DC /* pingpong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765C12934935E00CC96DC /* pingpong.mp3 */; };
+		2AC765F42934936000CC96DC /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765C52934935E00CC96DC /* water.mp3 */; };
+		2AC765F52934936000CC96DC /* seagull.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765C62934935E00CC96DC /* seagull.mp3 */; };
+		2AC765F62934936000CC96DC /* clockwork.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765C72934935E00CC96DC /* clockwork.mp3 */; };
+		2AC765F72934936000CC96DC /* kitty1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765C82934935E00CC96DC /* kitty1.mp3 */; };
+		2AC765F82934936000CC96DC /* bark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765C92934935E00CC96DC /* bark.mp3 */; };
+		2AC765F92934936000CC96DC /* crow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765CA2934935F00CC96DC /* crow.mp3 */; };
+		2AC765FA2934936000CC96DC /* kitty2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765CB2934935F00CC96DC /* kitty2.mp3 */; };
+		2AC765FB2934936000CC96DC /* grig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765CC2934935F00CC96DC /* grig.mp3 */; };
+		2AC765FC2934936000CC96DC /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765CD2934935F00CC96DC /* clap.wav */; };
+		2AC765FD2934936000CC96DC /* kitty3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765CE2934935F00CC96DC /* kitty3.mp3 */; };
+		2AC765FE2934936000CC96DC /* water2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765CF2934935F00CC96DC /* water2.mp3 */; };
+		2AC765FF2934936000CC96DC /* fog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765D02934935F00CC96DC /* fog.mp3 */; };
+		2AC766002934936000CC96DC /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765D12934935F00CC96DC /* bell.mp3 */; };
+		2AC766022934936000CC96DC /* tang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765D32934935F00CC96DC /* tang.mp3 */; };
+		2AC766032934936000CC96DC /* smallbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765D42934935F00CC96DC /* smallbell.mp3 */; };
+		2AC766042934936000CC96DC /* UserConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765D62934935F00CC96DC /* UserConfiguration.swift */; };
+		2AC766052934936000CC96DC /* WoodenFishStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765D72934935F00CC96DC /* WoodenFishStyle.swift */; };
+		2AC766062934936000CC96DC /* styles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765D82934935F00CC96DC /* styles.plist */; };
+		2AC766072934936000CC96DC /* UserConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765D92934935F00CC96DC /* UserConfiguration.plist */; };
+		2AC766082934936000CC96DC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765DB2934935F00CC96DC /* UIColor+Extension.swift */; };
+		2AC766092934936000CC96DC /* UISegmentController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765DC2934935F00CC96DC /* UISegmentController+Extension.swift */; };
+		2AC7660A2934936000CC96DC /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765DD2934935F00CC96DC /* UIButton+Extension.swift */; };
+		2AC7660B2934936000CC96DC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC765DE2934935F00CC96DC /* UIView+Extension.swift */; };
+		2AC766252934958200CC96DC /* WoodenFishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC766242934958200CC96DC /* WoodenFishApp.swift */; };
+		2AC766272934958200CC96DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC766262934958200CC96DC /* ContentView.swift */; };
+		2AC766292934958500CC96DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC766282934958500CC96DC /* Assets.xcassets */; };
+		2AC7662C2934958500CC96DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC7662B2934958500CC96DC /* Preview Assets.xcassets */; };
+		2AD2563A2942D8A700AA6570 /* 005.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2562D2942D8A600AA6570 /* 005.mp3 */; };
+		2AD2563B2942D8A700AA6570 /* 005.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2562D2942D8A600AA6570 /* 005.mp3 */; };
+		2AD2563C2942D8A700AA6570 /* 007.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2562E2942D8A600AA6570 /* 007.mp3 */; };
+		2AD2563D2942D8A700AA6570 /* 007.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2562E2942D8A600AA6570 /* 007.mp3 */; };
+		2AD2563E2942D8A700AA6570 /* 备用1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2562F2942D8A600AA6570 /* 备用1.mp3 */; };
+		2AD2563F2942D8A700AA6570 /* 备用1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2562F2942D8A600AA6570 /* 备用1.mp3 */; };
+		2AD256402942D8A700AA6570 /* 006.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256302942D8A600AA6570 /* 006.mp3 */; };
+		2AD256412942D8A700AA6570 /* 006.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256302942D8A600AA6570 /* 006.mp3 */; };
+		2AD256422942D8A700AA6570 /* 000.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256312942D8A600AA6570 /* 000.mp3 */; };
+		2AD256432942D8A700AA6570 /* 000.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256312942D8A600AA6570 /* 000.mp3 */; };
+		2AD256442942D8A700AA6570 /* 003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256322942D8A600AA6570 /* 003.mp3 */; };
+		2AD256452942D8A700AA6570 /* 003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256322942D8A600AA6570 /* 003.mp3 */; };
+		2AD256462942D8A700AA6570 /* 备用2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256332942D8A600AA6570 /* 备用2.mp3 */; };
+		2AD256472942D8A700AA6570 /* 备用2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256332942D8A600AA6570 /* 备用2.mp3 */; };
+		2AD256482942D8A700AA6570 /* 001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256342942D8A600AA6570 /* 001.mp3 */; };
+		2AD256492942D8A700AA6570 /* 001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256342942D8A600AA6570 /* 001.mp3 */; };
+		2AD2564A2942D8A700AA6570 /* dog2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256352942D8A700AA6570 /* dog2.mp3 */; };
+		2AD2564B2942D8A700AA6570 /* dog2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256352942D8A700AA6570 /* dog2.mp3 */; };
+		2AD2564C2942D8A700AA6570 /* 009.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256362942D8A700AA6570 /* 009.mp3 */; };
+		2AD2564D2942D8A700AA6570 /* 009.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256362942D8A700AA6570 /* 009.mp3 */; };
+		2AD2564E2942D8A700AA6570 /* dog1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256372942D8A700AA6570 /* dog1.mp3 */; };
+		2AD2564F2942D8A700AA6570 /* dog1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256372942D8A700AA6570 /* dog1.mp3 */; };
+		2AD256502942D8A700AA6570 /* 008.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256382942D8A700AA6570 /* 008.mp3 */; };
+		2AD256512942D8A700AA6570 /* 008.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256382942D8A700AA6570 /* 008.mp3 */; };
+		2AD256522942D8A700AA6570 /* 004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256392942D8A700AA6570 /* 004.mp3 */; };
+		2AD256532942D8A700AA6570 /* 004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256392942D8A700AA6570 /* 004.mp3 */; };
+		2AD256542942D8B500AA6570 /* heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765BE2934935E00CC96DC /* heart.mp3 */; };
+		2AD256792942E87100AA6570 /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256562942E86E00AA6570 /* cat.mp3 */; };
+		2AD2567A2942E87100AA6570 /* 004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256572942E86E00AA6570 /* 004.mp3 */; };
+		2AD2567B2942E87100AA6570 /* 003.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256582942E86F00AA6570 /* 003.mp3 */; };
+		2AD2567C2942E87100AA6570 /* water2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256592942E86F00AA6570 /* water2.mp3 */; };
+		2AD2567D2942E87100AA6570 /* 006.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2565A2942E86F00AA6570 /* 006.mp3 */; };
+		2AD2567E2942E87100AA6570 /* kitty2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2565B2942E86F00AA6570 /* kitty2.mp3 */; };
+		2AD2567F2942E87100AA6570 /* heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2565C2942E86F00AA6570 /* heart.mp3 */; };
+		2AD256802942E87100AA6570 /* fog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2565D2942E86F00AA6570 /* fog.mp3 */; };
+		2AD256812942E87100AA6570 /* ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2565E2942E86F00AA6570 /* ring.mp3 */; };
+		2AD256822942E87100AA6570 /* kitty3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2565F2942E86F00AA6570 /* kitty3.mp3 */; };
+		2AD256832942E87100AA6570 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256602942E86F00AA6570 /* clap.wav */; };
+		2AD256842942E87100AA6570 /* allegro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256612942E86F00AA6570 /* allegro.mp3 */; };
+		2AD256852942E87100AA6570 /* kiss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256622942E86F00AA6570 /* kiss.mp3 */; };
+		2AD256862942E87100AA6570 /* dog2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256632942E86F00AA6570 /* dog2.mp3 */; };
+		2AD256872942E87100AA6570 /* clockwork.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256642942E87000AA6570 /* clockwork.mp3 */; };
+		2AD256882942E87100AA6570 /* pingpong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256652942E87000AA6570 /* pingpong.mp3 */; };
+		2AD256892942E87100AA6570 /* bark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256662942E87000AA6570 /* bark.mp3 */; };
+		2AD2568A2942E87100AA6570 /* 007.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256672942E87000AA6570 /* 007.mp3 */; };
+		2AD2568B2942E87100AA6570 /* 000.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256682942E87000AA6570 /* 000.mp3 */; };
+		2AD2568C2942E87100AA6570 /* seagull.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256692942E87000AA6570 /* seagull.mp3 */; };
+		2AD2568D2942E87100AA6570 /* crow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2566A2942E87000AA6570 /* crow.mp3 */; };
+		2AD2568E2942E87100AA6570 /* smallbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2566B2942E87000AA6570 /* smallbell.mp3 */; };
+		2AD2568F2942E87100AA6570 /* tang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2566C2942E87000AA6570 /* tang.mp3 */; };
+		2AD256902942E87100AA6570 /* 005.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2566D2942E87000AA6570 /* 005.mp3 */; };
+		2AD256912942E87100AA6570 /* dog1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2566E2942E87000AA6570 /* dog1.mp3 */; };
+		2AD256922942E87200AA6570 /* grig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD2566F2942E87100AA6570 /* grig.mp3 */; };
+		2AD256932942E87200AA6570 /* 备用2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256702942E87100AA6570 /* 备用2.mp3 */; };
+		2AD256942942E87200AA6570 /* 008.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256712942E87100AA6570 /* 008.mp3 */; };
+		2AD256952942E87200AA6570 /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256722942E87100AA6570 /* water.mp3 */; };
+		2AD256962942E87200AA6570 /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256732942E87100AA6570 /* bell.mp3 */; };
+		2AD256972942E87200AA6570 /* kitty1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256742942E87100AA6570 /* kitty1.mp3 */; };
+		2AD256982942E87200AA6570 /* 009.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256752942E87100AA6570 /* 009.mp3 */; };
+		2AD256992942E87200AA6570 /* 001.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256762942E87100AA6570 /* 001.mp3 */; };
+		2AD2569A2942E87200AA6570 /* pingpong2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256772942E87100AA6570 /* pingpong2.mp3 */; };
+		2AD2569B2942E87200AA6570 /* 备用1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AD256782942E87100AA6570 /* 备用1.mp3 */; };
+		2AD256A02942ED5200AA6570 /* GroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2569F2942ED5100AA6570 /* GroupManager.swift */; };
+		2AD256A12942EF5700AA6570 /* GroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD2569F2942ED5100AA6570 /* GroupManager.swift */; };
+		2AD256A42942F06200AA6570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC765A12934932B00CC96DC /* Assets.xcassets */; };
+		2AD256A52942F16400AA6570 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD256A22942EFF900AA6570 /* Style.swift */; };
+		6B774129132F4BFEBCBB6852 /* Pods_Woodblock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9865964EC795B57F7AF59BA7 /* Pods_Woodblock.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A51548D29407AE3008B574D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AC7658D2934932700CC96DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A51547E29407ADF008B574D;
+			remoteInfo = WoodblockWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A51549329407AE3008B574D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2A51548F29407AE3008B574D /* WoodblockWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A502DF42934A133007C9D26 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		2A502DF62934A13F007C9D26 /* InstrumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentView.swift; sourceTree = "<group>"; };
+		2A502DF92934A24E007C9D26 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		2A502DFB2934A87C007C9D26 /* WithSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithSwitch.swift; sourceTree = "<group>"; };
+		2A502DFD2934AA1D007C9D26 /* DeviationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviationView.swift; sourceTree = "<group>"; };
+		2A502DFF2934ADF9007C9D26 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		2A502E022934B231007C9D26 /* BackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
+		2A502E052934B6AC007C9D26 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2A502E092934C4CD007C9D26 /* AShakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AShakeView.swift; sourceTree = "<group>"; };
+		2A502E442934E761007C9D26 /* InstrumentsEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentsEditView.swift; sourceTree = "<group>"; };
+		2A502E492934F080007C9D26 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		2A502E4B2934F0FE007C9D26 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		2A502E4F29358BF1007C9D26 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		2A502E512935FDD5007C9D26 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2A502E542935FE40007C9D26 /* Config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Config.json; sourceTree = "<group>"; };
+		2A502E552935FEF3007C9D26 /* isShowStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = isShowStyle.json; sourceTree = "<group>"; };
+		2A502E5829362FCE007C9D26 /* StopTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopTimeView.swift; sourceTree = "<group>"; };
+		2A502E5A293719BB007C9D26 /* AutoKnockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoKnockView.swift; sourceTree = "<group>"; };
+		2A502E5C29371AB5007C9D26 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		2A502E6229372014007C9D26 /* ListSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelectedView.swift; sourceTree = "<group>"; };
+		2A502E69293DE448007C9D26 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		2A51547F29407ADF008B574D /* WoodblockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WoodblockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A51548029407ADF008B574D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2A51548229407ADF008B574D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2A51548529407ADF008B574D /* WoodblockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodblockWidget.swift; sourceTree = "<group>"; };
+		2A51548729407ADF008B574D /* WoodblockWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WoodblockWidget.intentdefinition; sourceTree = "<group>"; };
+		2A51548829407AE3008B574D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A51548A29407AE3008B574D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC765952934932700CC96DC /* Woodblock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Woodblock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC765982934932700CC96DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AC7659A2934932700CC96DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AC7659F2934932700CC96DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AC765A12934932B00CC96DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC765A42934932B00CC96DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AC765A62934932B00CC96DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC765AD2934935D00CC96DC /* ShakeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeManager.swift; sourceTree = "<group>"; };
+		2AC765AE2934935D00CC96DC /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		2AC765AF2934935D00CC96DC /* PlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
+		2AC765B12934935E00CC96DC /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		2AC765B22934935E00CC96DC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2AC765B32934935E00CC96DC /* AdvancedSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedSettingViewController.swift; sourceTree = "<group>"; };
+		2AC765B42934935E00CC96DC /* InstrumentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentsViewController.swift; sourceTree = "<group>"; };
+		2AC765B62934935E00CC96DC /* InstrumentsCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentsCollectionCell.swift; sourceTree = "<group>"; };
+		2AC765B72934935E00CC96DC /* InstrumentsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentsCell.swift; sourceTree = "<group>"; };
+		2AC765B92934935E00CC96DC /* pingpong2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pingpong2.mp3; sourceTree = "<group>"; };
+		2AC765BA2934935E00CC96DC /* kiss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kiss.mp3; sourceTree = "<group>"; };
+		2AC765BB2934935E00CC96DC /* ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ring.mp3; sourceTree = "<group>"; };
+		2AC765BC2934935E00CC96DC /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		2AC765BD2934935E00CC96DC /* allegro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = allegro.mp3; sourceTree = "<group>"; };
+		2AC765BE2934935E00CC96DC /* heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heart.mp3; sourceTree = "<group>"; };
+		2AC765C12934935E00CC96DC /* pingpong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pingpong.mp3; sourceTree = "<group>"; };
+		2AC765C52934935E00CC96DC /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.mp3; sourceTree = "<group>"; };
+		2AC765C62934935E00CC96DC /* seagull.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seagull.mp3; sourceTree = "<group>"; };
+		2AC765C72934935E00CC96DC /* clockwork.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clockwork.mp3; sourceTree = "<group>"; };
+		2AC765C82934935E00CC96DC /* kitty1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kitty1.mp3; sourceTree = "<group>"; };
+		2AC765C92934935E00CC96DC /* bark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bark.mp3; sourceTree = "<group>"; };
+		2AC765CA2934935F00CC96DC /* crow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crow.mp3; sourceTree = "<group>"; };
+		2AC765CB2934935F00CC96DC /* kitty2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kitty2.mp3; sourceTree = "<group>"; };
+		2AC765CC2934935F00CC96DC /* grig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grig.mp3; sourceTree = "<group>"; };
+		2AC765CD2934935F00CC96DC /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		2AC765CE2934935F00CC96DC /* kitty3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kitty3.mp3; sourceTree = "<group>"; };
+		2AC765CF2934935F00CC96DC /* water2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water2.mp3; sourceTree = "<group>"; };
+		2AC765D02934935F00CC96DC /* fog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fog.mp3; sourceTree = "<group>"; };
+		2AC765D12934935F00CC96DC /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
+		2AC765D32934935F00CC96DC /* tang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tang.mp3; sourceTree = "<group>"; };
+		2AC765D42934935F00CC96DC /* smallbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = smallbell.mp3; sourceTree = "<group>"; };
+		2AC765D62934935F00CC96DC /* UserConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserConfiguration.swift; sourceTree = "<group>"; };
+		2AC765D72934935F00CC96DC /* WoodenFishStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WoodenFishStyle.swift; sourceTree = "<group>"; };
+		2AC765D82934935F00CC96DC /* styles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = styles.plist; sourceTree = "<group>"; };
+		2AC765D92934935F00CC96DC /* UserConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserConfiguration.plist; sourceTree = "<group>"; };
+		2AC765DB2934935F00CC96DC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		2AC765DC2934935F00CC96DC /* UISegmentController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentController+Extension.swift"; sourceTree = "<group>"; };
+		2AC765DD2934935F00CC96DC /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		2AC765DE2934935F00CC96DC /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2AC766222934958200CC96DC /* WoodenFish Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WoodenFish Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC766242934958200CC96DC /* WoodenFishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodenFishApp.swift; sourceTree = "<group>"; };
+		2AC766262934958200CC96DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AC766282934958500CC96DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC7662B2934958500CC96DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AD2562D2942D8A600AA6570 /* 005.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 005.mp3; sourceTree = "<group>"; };
+		2AD2562E2942D8A600AA6570 /* 007.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 007.mp3; sourceTree = "<group>"; };
+		2AD2562F2942D8A600AA6570 /* 备用1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "备用1.mp3"; sourceTree = "<group>"; };
+		2AD256302942D8A600AA6570 /* 006.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 006.mp3; sourceTree = "<group>"; };
+		2AD256312942D8A600AA6570 /* 000.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 000.mp3; sourceTree = "<group>"; };
+		2AD256322942D8A600AA6570 /* 003.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 003.mp3; sourceTree = "<group>"; };
+		2AD256332942D8A600AA6570 /* 备用2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "备用2.mp3"; sourceTree = "<group>"; };
+		2AD256342942D8A600AA6570 /* 001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 001.mp3; sourceTree = "<group>"; };
+		2AD256352942D8A700AA6570 /* dog2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog2.mp3; sourceTree = "<group>"; };
+		2AD256362942D8A700AA6570 /* 009.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 009.mp3; sourceTree = "<group>"; };
+		2AD256372942D8A700AA6570 /* dog1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog1.mp3; sourceTree = "<group>"; };
+		2AD256382942D8A700AA6570 /* 008.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 008.mp3; sourceTree = "<group>"; };
+		2AD256392942D8A700AA6570 /* 004.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 004.mp3; sourceTree = "<group>"; };
+		2AD256562942E86E00AA6570 /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cat.mp3; path = Woodblock/Resources/Audios/cat.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256572942E86E00AA6570 /* 004.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 004.mp3; path = Woodblock/Resources/Audios/004.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256582942E86F00AA6570 /* 003.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 003.mp3; path = Woodblock/Resources/Audios/003.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256592942E86F00AA6570 /* water2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = water2.mp3; path = Woodblock/Resources/Audios/water2.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2565A2942E86F00AA6570 /* 006.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 006.mp3; path = Woodblock/Resources/Audios/006.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2565B2942E86F00AA6570 /* kitty2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kitty2.mp3; path = Woodblock/Resources/Audios/kitty2.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2565C2942E86F00AA6570 /* heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = heart.mp3; path = Woodblock/Resources/Audios/heart.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2565D2942E86F00AA6570 /* fog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fog.mp3; path = Woodblock/Resources/Audios/fog.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2565E2942E86F00AA6570 /* ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ring.mp3; path = Woodblock/Resources/Audios/ring.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2565F2942E86F00AA6570 /* kitty3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kitty3.mp3; path = Woodblock/Resources/Audios/kitty3.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256602942E86F00AA6570 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clap.wav; path = Woodblock/Resources/Audios/clap.wav; sourceTree = SOURCE_ROOT; };
+		2AD256612942E86F00AA6570 /* allegro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = allegro.mp3; path = Woodblock/Resources/Audios/allegro.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256622942E86F00AA6570 /* kiss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kiss.mp3; path = Woodblock/Resources/Audios/kiss.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256632942E86F00AA6570 /* dog2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dog2.mp3; path = Woodblock/Resources/Audios/dog2.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256642942E87000AA6570 /* clockwork.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clockwork.mp3; path = Woodblock/Resources/Audios/clockwork.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256652942E87000AA6570 /* pingpong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pingpong.mp3; path = Woodblock/Resources/Audios/pingpong.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256662942E87000AA6570 /* bark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bark.mp3; path = Woodblock/Resources/Audios/bark.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256672942E87000AA6570 /* 007.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 007.mp3; path = Woodblock/Resources/Audios/007.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256682942E87000AA6570 /* 000.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 000.mp3; path = Woodblock/Resources/Audios/000.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256692942E87000AA6570 /* seagull.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = seagull.mp3; path = Woodblock/Resources/Audios/seagull.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2566A2942E87000AA6570 /* crow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = crow.mp3; path = Woodblock/Resources/Audios/crow.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2566B2942E87000AA6570 /* smallbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = smallbell.mp3; path = Woodblock/Resources/Audios/smallbell.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2566C2942E87000AA6570 /* tang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = tang.mp3; path = Woodblock/Resources/Audios/tang.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2566D2942E87000AA6570 /* 005.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 005.mp3; path = Woodblock/Resources/Audios/005.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2566E2942E87000AA6570 /* dog1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dog1.mp3; path = Woodblock/Resources/Audios/dog1.mp3; sourceTree = SOURCE_ROOT; };
+		2AD2566F2942E87100AA6570 /* grig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = grig.mp3; path = Woodblock/Resources/Audios/grig.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256702942E87100AA6570 /* 备用2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "备用2.mp3"; path = "Woodblock/Resources/Audios/备用2.mp3"; sourceTree = SOURCE_ROOT; };
+		2AD256712942E87100AA6570 /* 008.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 008.mp3; path = Woodblock/Resources/Audios/008.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256722942E87100AA6570 /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = water.mp3; path = Woodblock/Resources/Audios/water.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256732942E87100AA6570 /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bell.mp3; path = Woodblock/Resources/Audios/bell.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256742942E87100AA6570 /* kitty1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = kitty1.mp3; path = Woodblock/Resources/Audios/kitty1.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256752942E87100AA6570 /* 009.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 009.mp3; path = Woodblock/Resources/Audios/009.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256762942E87100AA6570 /* 001.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 001.mp3; path = Woodblock/Resources/Audios/001.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256772942E87100AA6570 /* pingpong2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pingpong2.mp3; path = Woodblock/Resources/Audios/pingpong2.mp3; sourceTree = SOURCE_ROOT; };
+		2AD256782942E87100AA6570 /* 备用1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "备用1.mp3"; path = "Woodblock/Resources/Audios/备用1.mp3"; sourceTree = SOURCE_ROOT; };
+		2AD2569C2942ECBA00AA6570 /* WoodenFish Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WoodenFish Watch App.entitlements"; sourceTree = "<group>"; };
+		2AD2569D2942ECD100AA6570 /* Woodblock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Woodblock.entitlements; sourceTree = "<group>"; };
+		2AD2569E2942ECDC00AA6570 /* WoodblockWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WoodblockWidgetExtension.entitlements; sourceTree = "<group>"; };
+		2AD2569F2942ED5100AA6570 /* GroupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupManager.swift; sourceTree = "<group>"; };
+		2AD256A22942EFF900AA6570 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		9865964EC795B57F7AF59BA7 /* Pods_Woodblock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Woodblock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD00B8E579392B6C1FE89EAD /* Pods-Woodblock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woodblock.debug.xcconfig"; path = "Target Support Files/Pods-Woodblock/Pods-Woodblock.debug.xcconfig"; sourceTree = "<group>"; };
+		F5DFC4EDC04C8898E4435BC5 /* Pods-Woodblock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Woodblock.release.xcconfig"; path = "Target Support Files/Pods-Woodblock/Pods-Woodblock.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A51547C29407ADF008B574D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A51548329407ADF008B574D /* SwiftUI.framework in Frameworks */,
+				2A51548129407ADF008B574D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC765922934932700CC96DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B774129132F4BFEBCBB6852 /* Pods_Woodblock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC7661F2934958200CC96DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A775264338B6922CF7755A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD00B8E579392B6C1FE89EAD /* Pods-Woodblock.debug.xcconfig */,
+				F5DFC4EDC04C8898E4435BC5 /* Pods-Woodblock.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A502E012934B214007C9D26 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				2A502E022934B231007C9D26 /* BackView.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		2A502E042934B30E007C9D26 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2A502E6229372014007C9D26 /* ListSelectedView.swift */,
+				2A502DF92934A24E007C9D26 /* NavigationBar.swift */,
+				2A502DFB2934A87C007C9D26 /* WithSwitch.swift */,
+				2A502DFD2934AA1D007C9D26 /* DeviationView.swift */,
+				2A502E092934C4CD007C9D26 /* AShakeView.swift */,
+				2A502E4F29358BF1007C9D26 /* EditView.swift */,
+				2A502E5829362FCE007C9D26 /* StopTimeView.swift */,
+				2A502E5C29371AB5007C9D26 /* PlaceholderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2A502E0B2934D4C3007C9D26 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				2AD256682942E87000AA6570 /* 000.mp3 */,
+				2AD256762942E87100AA6570 /* 001.mp3 */,
+				2AD256582942E86F00AA6570 /* 003.mp3 */,
+				2AD256572942E86E00AA6570 /* 004.mp3 */,
+				2AD2566D2942E87000AA6570 /* 005.mp3 */,
+				2AD2565A2942E86F00AA6570 /* 006.mp3 */,
+				2AD256672942E87000AA6570 /* 007.mp3 */,
+				2AD256712942E87100AA6570 /* 008.mp3 */,
+				2AD256752942E87100AA6570 /* 009.mp3 */,
+				2AD256782942E87100AA6570 /* 备用1.mp3 */,
+				2AD256702942E87100AA6570 /* 备用2.mp3 */,
+				2AD256612942E86F00AA6570 /* allegro.mp3 */,
+				2AD256662942E87000AA6570 /* bark.mp3 */,
+				2AD256732942E87100AA6570 /* bell.mp3 */,
+				2AD256562942E86E00AA6570 /* cat.mp3 */,
+				2AD256602942E86F00AA6570 /* clap.wav */,
+				2AD256642942E87000AA6570 /* clockwork.mp3 */,
+				2AD2566A2942E87000AA6570 /* crow.mp3 */,
+				2AD2566E2942E87000AA6570 /* dog1.mp3 */,
+				2AD256632942E86F00AA6570 /* dog2.mp3 */,
+				2AD2565D2942E86F00AA6570 /* fog.mp3 */,
+				2AD2566F2942E87100AA6570 /* grig.mp3 */,
+				2AD2565C2942E86F00AA6570 /* heart.mp3 */,
+				2AD256622942E86F00AA6570 /* kiss.mp3 */,
+				2AD256742942E87100AA6570 /* kitty1.mp3 */,
+				2AD2565B2942E86F00AA6570 /* kitty2.mp3 */,
+				2AD2565F2942E86F00AA6570 /* kitty3.mp3 */,
+				2AD256652942E87000AA6570 /* pingpong.mp3 */,
+				2AD256772942E87100AA6570 /* pingpong2.mp3 */,
+				2AD2565E2942E86F00AA6570 /* ring.mp3 */,
+				2AD256692942E87000AA6570 /* seagull.mp3 */,
+				2AD2566B2942E87000AA6570 /* smallbell.mp3 */,
+				2AD2566C2942E87000AA6570 /* tang.mp3 */,
+				2AD256722942E87100AA6570 /* water.mp3 */,
+				2AD256592942E86F00AA6570 /* water2.mp3 */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		2A502E482934F077007C9D26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A502E492934F080007C9D26 /* Config.swift */,
+				2A502E4B2934F0FE007C9D26 /* Style.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A502E532935FE0C007C9D26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A502E542935FE40007C9D26 /* Config.json */,
+				2A502E552935FEF3007C9D26 /* isShowStyle.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A502E66293DE2BB007C9D26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A502E67293DE2C6007C9D26 /* Fonts */,
+				2AC765B82934935E00CC96DC /* Audios */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A502E67293DE2C6007C9D26 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2A502E69293DE448007C9D26 /* Poppins-Black.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2A51548429407ADF008B574D /* WoodblockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2A51548529407ADF008B574D /* WoodblockWidget.swift */,
+				2A51548729407ADF008B574D /* WoodblockWidget.intentdefinition */,
+				2A51548829407AE3008B574D /* Assets.xcassets */,
+				2A51548A29407AE3008B574D /* Info.plist */,
+				2AD256A22942EFF900AA6570 /* Style.swift */,
+			);
+			path = WoodblockWidget;
+			sourceTree = "<group>";
+		};
+		2AC7658C2934932700CC96DC = {
+			isa = PBXGroup;
+			children = (
+				2AD2569E2942ECDC00AA6570 /* WoodblockWidgetExtension.entitlements */,
+				2AC765972934932700CC96DC /* Woodblock */,
+				2AC766232934958200CC96DC /* WoodenFish Watch App */,
+				2A51548429407ADF008B574D /* WoodblockWidget */,
+				2AC765962934932700CC96DC /* Products */,
+				0A775264338B6922CF7755A9 /* Pods */,
+				A74E5C3077847314CC34726B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC765962934932700CC96DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AC765952934932700CC96DC /* Woodblock.app */,
+				2AC766222934958200CC96DC /* WoodenFish Watch App.app */,
+				2A51547F29407ADF008B574D /* WoodblockWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AC765972934932700CC96DC /* Woodblock */ = {
+			isa = PBXGroup;
+			children = (
+				2AD2569D2942ECD100AA6570 /* Woodblock.entitlements */,
+				2A502E66293DE2BB007C9D26 /* Resources */,
+				2AC765AC2934935D00CC96DC /* Commons */,
+				2AC765B52934935E00CC96DC /* Components */,
+				2AC765DA2934935F00CC96DC /* Extensions */,
+				2AC765D52934935F00CC96DC /* Models */,
+				2AC765B02934935E00CC96DC /* Views */,
+				2AC765982934932700CC96DC /* AppDelegate.swift */,
+				2AC7659A2934932700CC96DC /* SceneDelegate.swift */,
+				2AC7659E2934932700CC96DC /* Main.storyboard */,
+				2AC765A12934932B00CC96DC /* Assets.xcassets */,
+				2AC765A32934932B00CC96DC /* LaunchScreen.storyboard */,
+				2AC765A62934932B00CC96DC /* Info.plist */,
+			);
+			path = Woodblock;
+			sourceTree = "<group>";
+		};
+		2AC765AC2934935D00CC96DC /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				2AC765AD2934935D00CC96DC /* ShakeManager.swift */,
+				2AC765AE2934935D00CC96DC /* Global.swift */,
+				2AC765AF2934935D00CC96DC /* PlistManager.swift */,
+				2AD2569F2942ED5100AA6570 /* GroupManager.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		2AC765B02934935E00CC96DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AC765B12934935E00CC96DC /* SettingViewController.swift */,
+				2AC765B22934935E00CC96DC /* HomeViewController.swift */,
+				2AC765B32934935E00CC96DC /* AdvancedSettingViewController.swift */,
+				2AC765B42934935E00CC96DC /* InstrumentsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AC765B52934935E00CC96DC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2AC765B62934935E00CC96DC /* InstrumentsCollectionCell.swift */,
+				2AC765B72934935E00CC96DC /* InstrumentsCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2AC765B82934935E00CC96DC /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				2AD2562F2942D8A600AA6570 /* 备用1.mp3 */,
+				2AD256332942D8A600AA6570 /* 备用2.mp3 */,
+				2AD256372942D8A700AA6570 /* dog1.mp3 */,
+				2AD256352942D8A700AA6570 /* dog2.mp3 */,
+				2AD256342942D8A600AA6570 /* 001.mp3 */,
+				2AD256322942D8A600AA6570 /* 003.mp3 */,
+				2AD256392942D8A700AA6570 /* 004.mp3 */,
+				2AD2562D2942D8A600AA6570 /* 005.mp3 */,
+				2AD256302942D8A600AA6570 /* 006.mp3 */,
+				2AD2562E2942D8A600AA6570 /* 007.mp3 */,
+				2AD256382942D8A700AA6570 /* 008.mp3 */,
+				2AD256362942D8A700AA6570 /* 009.mp3 */,
+				2AD256312942D8A600AA6570 /* 000.mp3 */,
+				2AC765B92934935E00CC96DC /* pingpong2.mp3 */,
+				2AC765BA2934935E00CC96DC /* kiss.mp3 */,
+				2AC765BB2934935E00CC96DC /* ring.mp3 */,
+				2AC765BC2934935E00CC96DC /* cat.mp3 */,
+				2AC765BD2934935E00CC96DC /* allegro.mp3 */,
+				2AC765BE2934935E00CC96DC /* heart.mp3 */,
+				2AC765C12934935E00CC96DC /* pingpong.mp3 */,
+				2AC765C52934935E00CC96DC /* water.mp3 */,
+				2AC765C62934935E00CC96DC /* seagull.mp3 */,
+				2AC765C72934935E00CC96DC /* clockwork.mp3 */,
+				2AC765C82934935E00CC96DC /* kitty1.mp3 */,
+				2AC765C92934935E00CC96DC /* bark.mp3 */,
+				2AC765CA2934935F00CC96DC /* crow.mp3 */,
+				2AC765CB2934935F00CC96DC /* kitty2.mp3 */,
+				2AC765CC2934935F00CC96DC /* grig.mp3 */,
+				2AC765CD2934935F00CC96DC /* clap.wav */,
+				2AC765CE2934935F00CC96DC /* kitty3.mp3 */,
+				2AC765CF2934935F00CC96DC /* water2.mp3 */,
+				2AC765D02934935F00CC96DC /* fog.mp3 */,
+				2AC765D12934935F00CC96DC /* bell.mp3 */,
+				2AC765D32934935F00CC96DC /* tang.mp3 */,
+				2AC765D42934935F00CC96DC /* smallbell.mp3 */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		2AC765D52934935F00CC96DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2AC765D62934935F00CC96DC /* UserConfiguration.swift */,
+				2AC765D72934935F00CC96DC /* WoodenFishStyle.swift */,
+				2AC765D82934935F00CC96DC /* styles.plist */,
+				2AC765D92934935F00CC96DC /* UserConfiguration.plist */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2AC765DA2934935F00CC96DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2AC765DB2934935F00CC96DC /* UIColor+Extension.swift */,
+				2AC765DC2934935F00CC96DC /* UISegmentController+Extension.swift */,
+				2AC765DD2934935F00CC96DC /* UIButton+Extension.swift */,
+				2AC765DE2934935F00CC96DC /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AC766232934958200CC96DC /* WoodenFish Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2AD2569C2942ECBA00AA6570 /* WoodenFish Watch App.entitlements */,
+				2A502E532935FE0C007C9D26 /* Resources */,
+				2A502E482934F077007C9D26 /* Model */,
+				2A502E0B2934D4C3007C9D26 /* Audios */,
+				2A502E042934B30E007C9D26 /* Components */,
+				2A502E012934B214007C9D26 /* Styles */,
+				2AC766312934959500CC96DC /* Helpter */,
+				2AC766302934959000CC96DC /* Views */,
+				2AC766242934958200CC96DC /* WoodenFishApp.swift */,
+				2AC766282934958500CC96DC /* Assets.xcassets */,
+				2AC7662A2934958500CC96DC /* Preview Content */,
+			);
+			path = "WoodenFish Watch App";
+			sourceTree = "<group>";
+		};
+		2AC7662A2934958500CC96DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2AC7662B2934958500CC96DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AC766302934959000CC96DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AC766262934958200CC96DC /* ContentView.swift */,
+				2A502DF42934A133007C9D26 /* SettingView.swift */,
+				2A502E5A293719BB007C9D26 /* AutoKnockView.swift */,
+				2A502E052934B6AC007C9D26 /* HomeView.swift */,
+				2A502DF62934A13F007C9D26 /* InstrumentView.swift */,
+				2A502E442934E761007C9D26 /* InstrumentsEditView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AC766312934959500CC96DC /* Helpter */ = {
+			isa = PBXGroup;
+			children = (
+				2A502DFF2934ADF9007C9D26 /* Global.swift */,
+				2A502E512935FDD5007C9D26 /* UserModel.swift */,
+			);
+			path = Helpter;
+			sourceTree = "<group>";
+		};
+		A74E5C3077847314CC34726B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9865964EC795B57F7AF59BA7 /* Pods_Woodblock.framework */,
+				2A51548029407ADF008B574D /* WidgetKit.framework */,
+				2A51548229407ADF008B574D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A51547E29407ADF008B574D /* WoodblockWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A51549029407AE3008B574D /* Build configuration list for PBXNativeTarget "WoodblockWidgetExtension" */;
+			buildPhases = (
+				2A51547B29407ADF008B574D /* Sources */,
+				2A51547C29407ADF008B574D /* Frameworks */,
+				2A51547D29407ADF008B574D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoodblockWidgetExtension;
+			productName = WoodblockWidgetExtension;
+			productReference = 2A51547F29407ADF008B574D /* WoodblockWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2AC765942934932700CC96DC /* Woodblock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC765A92934932B00CC96DC /* Build configuration list for PBXNativeTarget "Woodblock" */;
+			buildPhases = (
+				B7D32E4A0577E63A760FBC21 /* [CP] Check Pods Manifest.lock */,
+				2AC765912934932700CC96DC /* Sources */,
+				2AC765922934932700CC96DC /* Frameworks */,
+				2AC765932934932700CC96DC /* Resources */,
+				1740855017D84DAF468D607A /* [CP] Embed Pods Frameworks */,
+				2A51549329407AE3008B574D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A51548E29407AE3008B574D /* PBXTargetDependency */,
+			);
+			name = Woodblock;
+			productName = Woodblock;
+			productReference = 2AC765952934932700CC96DC /* Woodblock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AC766212934958200CC96DC /* WoodenFish Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC7662D2934958500CC96DC /* Build configuration list for PBXNativeTarget "WoodenFish Watch App" */;
+			buildPhases = (
+				2AC7661E2934958200CC96DC /* Sources */,
+				2AC7661F2934958200CC96DC /* Frameworks */,
+				2AC766202934958200CC96DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WoodenFish Watch App";
+			productName = "WoodenFish Watch App";
+			productReference = 2AC766222934958200CC96DC /* WoodenFish Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AC7658D2934932700CC96DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2A51547E29407ADF008B574D = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2AC765942934932700CC96DC = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2AC766212934958200CC96DC = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 2AC765902934932700CC96DC /* Build configuration list for PBXProject "Woodblock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AC7658C2934932700CC96DC;
+			productRefGroup = 2AC765962934932700CC96DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AC765942934932700CC96DC /* Woodblock */,
+				2AC766212934958200CC96DC /* WoodenFish Watch App */,
+				2A51547E29407ADF008B574D /* WoodblockWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A51547D29407ADF008B574D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD256A42942F06200AA6570 /* Assets.xcassets in Resources */,
+				2A51548929407AE3008B574D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC765932934932700CC96DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD2563A2942D8A700AA6570 /* 005.mp3 in Resources */,
+				2AD256522942D8A700AA6570 /* 004.mp3 in Resources */,
+				2AC765A52934932B00CC96DC /* LaunchScreen.storyboard in Resources */,
+				2AD2564C2942D8A700AA6570 /* 009.mp3 in Resources */,
+				2AC765ED2934936000CC96DC /* heart.mp3 in Resources */,
+				2AC765E92934936000CC96DC /* kiss.mp3 in Resources */,
+				2AC765FD2934936000CC96DC /* kitty3.mp3 in Resources */,
+				2AC765EA2934936000CC96DC /* ring.mp3 in Resources */,
+				2AC765FE2934936000CC96DC /* water2.mp3 in Resources */,
+				2AC765F82934936000CC96DC /* bark.mp3 in Resources */,
+				2AD256422942D8A700AA6570 /* 000.mp3 in Resources */,
+				2AC765FF2934936000CC96DC /* fog.mp3 in Resources */,
+				2AC766062934936000CC96DC /* styles.plist in Resources */,
+				2AC765F62934936000CC96DC /* clockwork.mp3 in Resources */,
+				2AC766072934936000CC96DC /* UserConfiguration.plist in Resources */,
+				2AD256402942D8A700AA6570 /* 006.mp3 in Resources */,
+				2AD2564E2942D8A700AA6570 /* dog1.mp3 in Resources */,
+				2AD2563E2942D8A700AA6570 /* 备用1.mp3 in Resources */,
+				2AC765A22934932B00CC96DC /* Assets.xcassets in Resources */,
+				2AC765EB2934936000CC96DC /* cat.mp3 in Resources */,
+				2AD256482942D8A700AA6570 /* 001.mp3 in Resources */,
+				2AC765F72934936000CC96DC /* kitty1.mp3 in Resources */,
+				2AC765FC2934936000CC96DC /* clap.wav in Resources */,
+				2A502E6A293DE448007C9D26 /* Poppins-Black.ttf in Resources */,
+				2AC765F02934936000CC96DC /* pingpong.mp3 in Resources */,
+				2AC766002934936000CC96DC /* bell.mp3 in Resources */,
+				2AD256502942D8A700AA6570 /* 008.mp3 in Resources */,
+				2AD2564A2942D8A700AA6570 /* dog2.mp3 in Resources */,
+				2AC765FA2934936000CC96DC /* kitty2.mp3 in Resources */,
+				2AC766032934936000CC96DC /* smallbell.mp3 in Resources */,
+				2AC765F42934936000CC96DC /* water.mp3 in Resources */,
+				2AD2563C2942D8A700AA6570 /* 007.mp3 in Resources */,
+				2AD256442942D8A700AA6570 /* 003.mp3 in Resources */,
+				2AC765F52934936000CC96DC /* seagull.mp3 in Resources */,
+				2AD256462942D8A700AA6570 /* 备用2.mp3 in Resources */,
+				2AC765A02934932700CC96DC /* Main.storyboard in Resources */,
+				2AC765E82934936000CC96DC /* pingpong2.mp3 in Resources */,
+				2AC765FB2934936000CC96DC /* grig.mp3 in Resources */,
+				2AC765F92934936000CC96DC /* crow.mp3 in Resources */,
+				2AC766022934936000CC96DC /* tang.mp3 in Resources */,
+				2AC765EC2934936000CC96DC /* allegro.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC766202934958200CC96DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD256902942E87100AA6570 /* 005.mp3 in Resources */,
+				2AD256852942E87100AA6570 /* kiss.mp3 in Resources */,
+				2AD2568D2942E87100AA6570 /* crow.mp3 in Resources */,
+				2AD256832942E87100AA6570 /* clap.wav in Resources */,
+				2AD256892942E87100AA6570 /* bark.mp3 in Resources */,
+				2AD256912942E87100AA6570 /* dog1.mp3 in Resources */,
+				2AD2568A2942E87100AA6570 /* 007.mp3 in Resources */,
+				2AD256432942D8A700AA6570 /* 000.mp3 in Resources */,
+				2AD2563D2942D8A700AA6570 /* 007.mp3 in Resources */,
+				2AD256812942E87100AA6570 /* ring.mp3 in Resources */,
+				2AD256962942E87200AA6570 /* bell.mp3 in Resources */,
+				2AD256412942D8A700AA6570 /* 006.mp3 in Resources */,
+				2AD256922942E87200AA6570 /* grig.mp3 in Resources */,
+				2AD2567D2942E87100AA6570 /* 006.mp3 in Resources */,
+				2AD2564D2942D8A700AA6570 /* 009.mp3 in Resources */,
+				2AD256982942E87200AA6570 /* 009.mp3 in Resources */,
+				2AD2568E2942E87100AA6570 /* smallbell.mp3 in Resources */,
+				2AD2568C2942E87100AA6570 /* seagull.mp3 in Resources */,
+				2AD2567E2942E87100AA6570 /* kitty2.mp3 in Resources */,
+				2AD2567B2942E87100AA6570 /* 003.mp3 in Resources */,
+				2AD256492942D8A700AA6570 /* 001.mp3 in Resources */,
+				2AD256792942E87100AA6570 /* cat.mp3 in Resources */,
+				2AD256932942E87200AA6570 /* 备用2.mp3 in Resources */,
+				2AD256802942E87100AA6570 /* fog.mp3 in Resources */,
+				2AD256882942E87100AA6570 /* pingpong.mp3 in Resources */,
+				2AD2567A2942E87100AA6570 /* 004.mp3 in Resources */,
+				2AD256992942E87200AA6570 /* 001.mp3 in Resources */,
+				2AD2568F2942E87100AA6570 /* tang.mp3 in Resources */,
+				2AD256872942E87100AA6570 /* clockwork.mp3 in Resources */,
+				2AD256952942E87200AA6570 /* water.mp3 in Resources */,
+				2AD256822942E87100AA6570 /* kitty3.mp3 in Resources */,
+				2A502E572935FEF9007C9D26 /* Config.json in Resources */,
+				2AD256972942E87200AA6570 /* kitty1.mp3 in Resources */,
+				2A502E562935FEF3007C9D26 /* isShowStyle.json in Resources */,
+				2AD2564F2942D8A700AA6570 /* dog1.mp3 in Resources */,
+				2AD2563B2942D8A700AA6570 /* 005.mp3 in Resources */,
+				2AC7662C2934958500CC96DC /* Preview Assets.xcassets in Resources */,
+				2AD256542942D8B500AA6570 /* heart.mp3 in Resources */,
+				2AD256512942D8A700AA6570 /* 008.mp3 in Resources */,
+				2AD2567F2942E87100AA6570 /* heart.mp3 in Resources */,
+				2AD2568B2942E87100AA6570 /* 000.mp3 in Resources */,
+				2AD256862942E87100AA6570 /* dog2.mp3 in Resources */,
+				2AD2564B2942D8A700AA6570 /* dog2.mp3 in Resources */,
+				2AD256532942D8A700AA6570 /* 004.mp3 in Resources */,
+				2AD256452942D8A700AA6570 /* 003.mp3 in Resources */,
+				2AC766292934958500CC96DC /* Assets.xcassets in Resources */,
+				2AD2569A2942E87200AA6570 /* pingpong2.mp3 in Resources */,
+				2A502E6B293DE448007C9D26 /* Poppins-Black.ttf in Resources */,
+				2AD256942942E87200AA6570 /* 008.mp3 in Resources */,
+				2AD2563F2942D8A700AA6570 /* 备用1.mp3 in Resources */,
+				2AD256842942E87100AA6570 /* allegro.mp3 in Resources */,
+				2AD2569B2942E87200AA6570 /* 备用1.mp3 in Resources */,
+				2AD256472942D8A700AA6570 /* 备用2.mp3 in Resources */,
+				2AD2567C2942E87100AA6570 /* water2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1740855017D84DAF468D607A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woodblock/Pods-Woodblock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Woodblock/Pods-Woodblock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Woodblock/Pods-Woodblock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D32E4A0577E63A760FBC21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Woodblock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A51547B29407ADF008B574D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A51548B29407AE3008B574D /* WoodblockWidget.intentdefinition in Sources */,
+				2A51548629407ADF008B574D /* WoodblockWidget.swift in Sources */,
+				2AD256A12942EF5700AA6570 /* GroupManager.swift in Sources */,
+				2AD256A52942F16400AA6570 /* Style.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC765912934932700CC96DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC765E12934936000CC96DC /* PlistManager.swift in Sources */,
+				2AC766052934936000CC96DC /* WoodenFishStyle.swift in Sources */,
+				2AC765DF2934936000CC96DC /* ShakeManager.swift in Sources */,
+				2AC7660A2934936000CC96DC /* UIButton+Extension.swift in Sources */,
+				2AC766092934936000CC96DC /* UISegmentController+Extension.swift in Sources */,
+				2AC765E42934936000CC96DC /* AdvancedSettingViewController.swift in Sources */,
+				2AC765E72934936000CC96DC /* InstrumentsCell.swift in Sources */,
+				2AC765E32934936000CC96DC /* HomeViewController.swift in Sources */,
+				2AD256A02942ED5200AA6570 /* GroupManager.swift in Sources */,
+				2AC765992934932700CC96DC /* AppDelegate.swift in Sources */,
+				2AC765E02934936000CC96DC /* Global.swift in Sources */,
+				2A51548C29407AE3008B574D /* WoodblockWidget.intentdefinition in Sources */,
+				2AC766082934936000CC96DC /* UIColor+Extension.swift in Sources */,
+				2AC7660B2934936000CC96DC /* UIView+Extension.swift in Sources */,
+				2AC765E22934936000CC96DC /* SettingViewController.swift in Sources */,
+				2AC766042934936000CC96DC /* UserConfiguration.swift in Sources */,
+				2AC7659B2934932700CC96DC /* SceneDelegate.swift in Sources */,
+				2AC765E62934936000CC96DC /* InstrumentsCollectionCell.swift in Sources */,
+				2AC765E52934936000CC96DC /* InstrumentsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC7661E2934958200CC96DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A502E5B293719BB007C9D26 /* AutoKnockView.swift in Sources */,
+				2A502E002934ADF9007C9D26 /* Global.swift in Sources */,
+				2A502E5029358BF1007C9D26 /* EditView.swift in Sources */,
+				2A502E5929362FCE007C9D26 /* StopTimeView.swift in Sources */,
+				2A502DFA2934A24E007C9D26 /* NavigationBar.swift in Sources */,
+				2A502E5D29371AB5007C9D26 /* PlaceholderView.swift in Sources */,
+				2A502DFC2934A87C007C9D26 /* WithSwitch.swift in Sources */,
+				2A502E452934E761007C9D26 /* InstrumentsEditView.swift in Sources */,
+				2A502E4C2934F0FE007C9D26 /* Style.swift in Sources */,
+				2A502E062934B6AC007C9D26 /* HomeView.swift in Sources */,
+				2A502E032934B231007C9D26 /* BackView.swift in Sources */,
+				2A502E4E2934F21C007C9D26 /* UIColor+Extension.swift in Sources */,
+				2A502DF52934A133007C9D26 /* SettingView.swift in Sources */,
+				2AC766272934958200CC96DC /* ContentView.swift in Sources */,
+				2A502E0A2934C4CD007C9D26 /* AShakeView.swift in Sources */,
+				2A502E6329372014007C9D26 /* ListSelectedView.swift in Sources */,
+				2AC766252934958200CC96DC /* WoodenFishApp.swift in Sources */,
+				2A502DFE2934AA1D007C9D26 /* DeviationView.swift in Sources */,
+				2A502DF72934A13F007C9D26 /* InstrumentView.swift in Sources */,
+				2A502E522935FDD5007C9D26 /* UserModel.swift in Sources */,
+				2A502E4A2934F080007C9D26 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A51548E29407AE3008B574D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A51547E29407ADF008B574D /* WoodblockWidgetExtension */;
+			targetProxy = 2A51548D29407AE3008B574D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AC7659E2934932700CC96DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC7659F2934932700CC96DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AC765A32934932B00CC96DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC765A42934932B00CC96DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A51549129407AE3008B574D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WoodblockWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U88T44UU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WoodblockWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WoodblockWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starsea.Woodblock.devc.WoodblockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A51549229407AE3008B574D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WoodblockWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U88T44UU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WoodblockWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WoodblockWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starsea.Woodblock.devc.WoodblockWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AC765A72934932B00CC96DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AC765A82934932B00CC96DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AC765AA2934932B00CC96DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD00B8E579392B6C1FE89EAD /* Pods-Woodblock.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Woodblock/Woodblock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U88T44UU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Woodblock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starsea.Woodblock.devc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AC765AB2934932B00CC96DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5DFC4EDC04C8898E4435BC5 /* Pods-Woodblock.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Woodblock/Woodblock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U88T44UU5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Woodblock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starsea.Woodblock.devc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AC7662E2934958500CC96DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WoodenFish Watch App/WoodenFish Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WoodenFish Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U88T44UU5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WoodenFish;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		2AC7662F2934958500CC96DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WoodenFish Watch App/WoodenFish Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WoodenFish Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U88T44UU5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WoodenFish;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A51549029407AE3008B574D /* Build configuration list for PBXNativeTarget "WoodblockWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A51549129407AE3008B574D /* Debug */,
+				2A51549229407AE3008B574D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC765902934932700CC96DC /* Build configuration list for PBXProject "Woodblock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC765A72934932B00CC96DC /* Debug */,
+				2AC765A82934932B00CC96DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC765A92934932B00CC96DC /* Build configuration list for PBXNativeTarget "Woodblock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC765AA2934932B00CC96DC /* Debug */,
+				2AC765AB2934932B00CC96DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC7662D2934958500CC96DC /* Build configuration list for PBXNativeTarget "WoodenFish Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC7662E2934958500CC96DC /* Debug */,
+				2AC7662F2934958500CC96DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AC7658D2934932700CC96DC /* Project object */;
+}
